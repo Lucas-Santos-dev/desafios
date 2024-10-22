@@ -1,0 +1,67 @@
+main {
+    position: relative;
+}
+
+#img-main {
+    position:absolute;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.info-character{
+    padding: 50px;
+    width: 1600px;
+}
+
+h2 {
+    padding-left: 70px;
+    padding-bottom: 10px;
+}
+
+.character-name {
+    font-family: "Pirata one";
+    color: #fff;
+    left: 50px;
+}
+
+.character-description {
+    max-width: 20%;
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+li {
+    padding: 10px;
+}
+
+.select-character{
+    display: flex;
+    list-style-type: none;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+}
+
+.btn {
+    background-size: cover;
+    border-radius: 50%;
+    background-color: transparent; 
+    border: none;
+}
+
+.btn:hover{
+    transition: transform 1s ease;
+    transform: scale(1.1);
+    border: none;
+    background-color :#fff;
+    
+}
+
